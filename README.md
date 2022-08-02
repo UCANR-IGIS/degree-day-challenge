@@ -60,10 +60,10 @@ Pest Management](http://ipm.ucanr.edu/WEATHER/) (UC IPM) website.
 
 Numerous researchers and web developers have written computer code to
 compute degrees for specific applications, using programming languages
-such as Fortran, Python, R, Matlab, Perl, and others, etc. To check
-whether your code works as expected, all researchers are invited to run
-their code on the reference dataset below, and optionally share their
-code.
+such as Fortran, Python, R, JavaScript, Matlab, Perl, and others, etc.
+To check whether your code works as expected, all researchers are
+invited to run their code on the reference dataset below, and optionally
+share their code.
 
 **Reference daily temperature dataset**
 
@@ -251,12 +251,24 @@ single method**, but it should present the comparisons to the answers.
 If you’re willing to share your code with others, please put enough
 description and links so others can replicate your work.
 
-**Winning Submissions**
+### Python
 
-Python:
+*No code submissions yet*
 
-R:
+### R
 
-Perl:
+*Name*: degday R package
 
-JavaScript:
+*Submitted by*: Andy Lyons
+
+*Status*: The degday R package only has functions for the horizontal
+cutoff methods. Single-sine and single-triangle methods match the
+reference answers; the double methods do not. Still investigating.
+
+### Perl
+
+*No code submissions yet*
+
+### JavaScript
+
+*No code submissions yet*
