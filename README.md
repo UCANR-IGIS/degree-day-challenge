@@ -25,7 +25,7 @@ degree days based on the daily minimum and maximum temperature.
 
   
 
-## Degree Day Formulas
+## Degree Day Estimation Formulas
 
 There are several mathematical formula that can be used to estimate
 degree days based on daily minimum and maximum temperature. One of the
@@ -71,7 +71,7 @@ The reference temperature dataset contains 1 year of daily minimum and
 maximum temperature values (°F) from the Esparto-A CIMIS weather
 station:
 
-[espartoa-weather-2020.csv](./data/espartoa-weather-2020.csv)
+[espartoa-weather-2020.csv](https://raw.githubusercontent.com/UCANR-IGIS/degree-day-challenge/main/data/espartoa-weather-2020.csv)
 
   
 
@@ -178,6 +178,9 @@ case1 + case2 + case3 + case4 + case5 + case6
 
 # The Correct Answers
 
+**TODO: need to add simple average method 1 and 2 (McMaster and Wilhelm,
+1997)**
+
 The results from the [UC IPM
 website](http://ipm.ucanr.edu/WEATHER/index.html) shall serve as the
 correct answers. The UC IPM website has been the reference for degree
@@ -185,7 +188,7 @@ day calculations for decades, and they have all the major methods
 available. The correct answers have been compiled into a single CSV
 file:
 
-[ucipm_low50_high70_all.csv](data/ucimp_results/ucipm_low50_high70_all.csv)
+[ucipm_low50_high70_all.csv](https://raw.githubusercontent.com/UCANR-IGIS/degree-day-challenge/main/data/ucipm_results/ucipm_low50_high70_all.csv)
 
   
 
@@ -234,17 +237,19 @@ answers_tbl %>% slice(1:10)
 
 To re-generate the correct answers, go to the [UC IPM
 website](http://ipm.ucanr.edu/WEATHER/index.html) and upload the version
-of the reference data that has [no headers](#noheadrs_url).
+of the reference data that has [no
+headers](https://raw.githubusercontent.com/UCANR-IGIS/degree-day-challenge/main/data/espartoa-weather-2020-noheader.csv).
 
 ## Submit Your Degree Day Computations!
 
 If you have gone through all the trouble of coding up the degree day
 formulas, you should get some credit for it! Let us know about your
-results by filing an [Github issue](#issue), and we will link them
-below. Your codes **doesn’t have to support every single method**, but
-it should present the comparisons to the answers. If you’re willing to
-share your code with others, please put enough description and links so
-others can replicate your work.
+results by starting a [Github
+issue](https://github.com/UCANR-IGIS/degree-day-challenge/issues), and
+we will link them below. Your codes **doesn’t have to support every
+single method**, but it should present the comparisons to the answers.
+If you’re willing to share your code with others, please put enough
+description and links so others can replicate your work.
 
 **Winning Submissions**
 
