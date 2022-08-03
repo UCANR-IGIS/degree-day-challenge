@@ -20,7 +20,7 @@ library(dplyr)
 
 'Degree days' are a measure of accumulated heat. The concept was developed by biologists who realized that you can predict the growth of plants and insects by tallying the temperature each day, starting when they emerge. Today, degree day models are widely used in agriculture to predict crop growth and stages of insect pest development.
 
-In practice, one computes degree days using hourly temperature data. In the event that hourly data are not available, one can also estimate degree days based on the daily minimum and maximum temperature.
+In practice, one computes degree days using hourly temperature data. In the event that hourly data are not available, one can also estimate degree days based on the daily minimum and maximum temperature. Several different forumula have been developed to estimate degree days from daily min and max temperature.
 
 \
 
@@ -142,22 +142,22 @@ If you have gone through all the trouble of coding up the degree day formulas, y
 
 ### Python
 
-*No code submissions yet*
+*No submissions yet*
 
 ### R
 
-*Name*: [Degree Day Validation Challenge using degday R package]()
-
-*Submitted by*: Andy Lyons  
-
-*Status*: The degday R package only has functions for the horizontal cutoff methods. Single-sine and single-triangle methods match the reference answers; the double methods do not. Still investigating.
-
-
-### Perl
-
-*No code submissions yet*
+::: {style="margin-left:2em;"}
+**Name**: [Degree Day Validation Challenge using degday R package](https://ucanr-igis.github.io/degree-day-challenge/degday_R.nb.html)  
+**Submitted by**: Andy Lyons   
+**Status**: Passed
+:::
 
 ### JavaScript
 
-*No code submissions yet*
+*No submissions yet*
+
+### Matlab
+
+*No submissions yet*
+
 

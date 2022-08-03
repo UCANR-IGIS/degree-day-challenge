@@ -21,7 +21,9 @@ predict crop growth and stages of insect pest development.
 
 In practice, one computes degree days using hourly temperature data. In
 the event that hourly data are not available, one can also estimate
-degree days based on the daily minimum and maximum temperature.
+degree days based on the daily minimum and maximum temperature. Several
+different forumula have been developed to estimate degree days from
+daily min and max temperature.
 
   
 
@@ -253,22 +255,23 @@ description and links so others can replicate your work.
 
 ### Python
 
-*No code submissions yet*
+*No submissions yet*
 
 ### R
 
-*Name*: degday R package
+<div style="margin-left:2em;">
 
-*Submitted by*: Andy Lyons
+**Name**: [Degree Day Validation Challenge using degday R
+package](https://ucanr-igis.github.io/degree-day-challenge/degday_R.nb.html)  
+**Submitted by**: Andy Lyons  
+**Status**: Passed
 
-*Status*: The degday R package only has functions for the horizontal
-cutoff methods. Single-sine and single-triangle methods match the
-reference answers; the double methods do not. Still investigating.
-
-### Perl
-
-*No code submissions yet*
+</div>
 
 ### JavaScript
 
-*No code submissions yet*
+*No submissions yet*
+
+### Matlab
+
+*No submissions yet*
