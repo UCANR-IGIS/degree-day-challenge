@@ -253,6 +253,9 @@ single method**, but it should present the comparisons to the answers.
 If you’re willing to share your code with others, please put enough
 description and links so others can replicate your work.
 
+When your submission is posted, you’ll be sent embed code to display the
+coveted **degree-day-challenge badge** on your site.
+
 ### Python
 
 *No submissions yet*
@@ -264,7 +267,7 @@ description and links so others can replicate your work.
 **Name**: [Degree Day Validation Challenge using degday R
 package](https://ucanr-igis.github.io/degree-day-challenge/degday_R.nb.html)  
 **Submitted by**: Andy Lyons  
-**Status**: Passed
+**Status**: Passing
 
 </div>
 

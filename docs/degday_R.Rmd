@@ -201,5 +201,7 @@ ddvals_answers_dbl_tbl %>%
 
 The estimated degree day values computed by [`degday`](https://ucanr-igis.github.io/degday/) match the values from the UC IPM website.
 
+\
+
 
 
