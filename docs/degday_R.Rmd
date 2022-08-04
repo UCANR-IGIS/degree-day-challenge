@@ -5,7 +5,7 @@ output: html_notebook
 
 # Introduction
 
-This notebook compares the estimated degree day values computed the [`degday`](https://ucanr-igis.github.io/degday/) R package with those from the UC IPM website. This is part of the [Degree Days Validation Challenge](https://ucanr-igis.github.io/degree-day-challenge/).
+This R-Notebook compares the estimated degree day values computed the [`degday`](https://ucanr-igis.github.io/degday/) R package with those from the UC IPM website. This is part of the [Degree Days Validation Challenge](https://ucanr-igis.github.io/degree-day-challenge/).
 
 # Setup 
 

@@ -254,7 +254,9 @@ If you’re willing to share your code with others, please put enough
 description and links so others can replicate your work.
 
 When your submission is posted, you’ll be sent embed code to display the
-coveted **degree-day-challenge badge** on your site.
+coveted **degree-day-challenge badge** on your site:
+
+![](https://raw.githubusercontent.com/ucanr-igis/degree-day-challenge/main/badges/degree-day-challenge-passing.svg)
 
 ### Python
 
