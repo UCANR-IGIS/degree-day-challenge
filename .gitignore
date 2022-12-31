@@ -50,3 +50,6 @@ rsconnect/
 
 # Any file or folder that starts with ~
 ~*
+
+.ipynb_checkpoints
+__pycache__

@@ -146,14 +146,64 @@ When your submission is posted, you'll be sent embed code to display the coveted
 
 ### Python
 
-*No submissions yet*
+::: {style="margin-left:2em;"}
+**Library**: **HeatUnits**
+**Author**: Shane Feirer   
+**Code**: [HeatUnits.py](https://github.com/UCANR-IGIS/caladapt-py/blob/master/CookBooks/HeatUnits.py)  
+**Notebook**: [DegreeDaysChallenge.ipynb](https://ucanr-igis.github.io/degree-day-challenge/submissions/heatunits_py/HeatUnits_py.html) ([HeatUnits_py.ipynb]())  
+
+**Results**:
+
+```{r echo = FALSE}
+passing_grn <- "<span style='color:#14c700;'>passing</span>"
+passing_org <- "<span style='color:#ed6a43;'>>95% passing</span>"
+c(
+"Single-sine (horizontal cutoff)", passing_grn, 
+"Double-sine (horizontal cutoff)", passing_grn, 
+"Single-triangle (horizontal cutoff)", passing_grn, 
+"Double-triangle (horizontal cutoff)", passing_grn, 
+"Single-sine (intermediate cutoff)", passing_org, 
+"Double-sine (intermediate cutoff)", passing_org, 
+"Single-triangle (intermediate cutoff)", passing_org, 
+"Double-triangle (intermediate cutoff)", passing_org, 
+"Single-sine (vertical cutoff)", passing_org, 
+"Double-sine (vertical cutoff)", passing_org, 
+"Single-triangle (vertical cutoff)", passing_org, 
+"Double-triangle (vertical cutoff)", passing_org  
+) |> 
+  matrix(ncol = 2, byrow = TRUE) |> 
+  as.data.frame() |> 
+  setNames(c("Method", "Result")) |> 
+  knitr::kable(format = "markdown")
+```
+
+:::
 
 ### R
 
 ::: {style="margin-left:2em;"}
-**Name**: [Degree Day Validation Challenge using degday R package](https://ucanr-igis.github.io/degree-day-challenge/degday_R.nb.html)  
-**Submitted by**: Andy Lyons   
-**Status**: Passing
+**Library**: **degday**
+**Code**: [degday](https://ucanr-igis.github.io/degday/)  
+**Notebook**: 
+[Degree Day Validation Challenge with degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)  
+**Author**: Andy Lyons   
+**Results**: 
+
+```{r echo = FALSE}
+passing_grn <- "<span style='color:#14c700;'>passing</span>"
+passing_org <- "<span style='color:#ed6a43;'>>95% passing</span>"
+c(
+"Single-sine (horizontal cutoff)", passing_grn, 
+"Double-sine (horizontal cutoff)", passing_grn, 
+"Single-triangle (horizontal cutoff)", passing_grn, 
+"Double-triangle (horizontal cutoff)", passing_grn, 
+) |> 
+  matrix(ncol = 2, byrow = TRUE) |> 
+  as.data.frame() |> 
+  setNames(c("Method", "Result")) |> 
+  knitr::kable(format = "markdown")
+```
+
 :::
 
 ### JavaScript
