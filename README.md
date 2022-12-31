@@ -266,9 +266,9 @@ coveted **degree-day-challenge badge** on your site:
 **Author**: Shane Feirer  
 **Code**:
 [HeatUnits.py](https://github.com/UCANR-IGIS/caladapt-py/blob/master/CookBooks/HeatUnits.py)  
-**Notebook**:
-[DegreeDaysChallenge.ipynb](https://ucanr-igis.github.io/degree-day-challenge/submissions/heatunits_py/HeatUnits_py.html)
-([HeatUnits_py.ipynb]())
+**Notebook**: [Heat Units
+Test](https://ucanr-igis.github.io/degree-day-challenge/submissions/heatunits_py/HeatUnits_py.html)
+([HeatUnits_py.ipynb](https://github.com/UCANR-IGIS/degree-day-challenge/blob/main/docs/submissions/heatunits_py/HeatUnits_py.ipynb))
 
 **Results**:
 
@@ -278,14 +278,14 @@ coveted **degree-day-challenge badge** on your site:
 | Double-sine (horizontal cutoff)       | <span style="color:#14c700;">passing</span>       |
 | Single-triangle (horizontal cutoff)   | <span style="color:#14c700;">passing</span>       |
 | Double-triangle (horizontal cutoff)   | <span style="color:#14c700;">passing</span>       |
-| Single-sine (intermediate cutoff)     | <span style="color:#ed6a43;">\>95% passing</span> |
-| Double-sine (intermediate cutoff)     | <span style="color:#ed6a43;">\>95% passing</span> |
-| Single-triangle (intermediate cutoff) | <span style="color:#ed6a43;">\>95% passing</span> |
-| Double-triangle (intermediate cutoff) | <span style="color:#ed6a43;">\>95% passing</span> |
-| Single-sine (vertical cutoff)         | <span style="color:#ed6a43;">\>95% passing</span> |
-| Double-sine (vertical cutoff)         | <span style="color:#ed6a43;">\>95% passing</span> |
-| Single-triangle (vertical cutoff)     | <span style="color:#ed6a43;">\>95% passing</span> |
-| Double-triangle (vertical cutoff)     | <span style="color:#ed6a43;">\>95% passing</span> |
+| Single-sine (intermediate cutoff)     | <span style="color:#ed8a43;">\>95% passing</span> |
+| Double-sine (intermediate cutoff)     | <span style="color:#ed8a43;">\>95% passing</span> |
+| Single-triangle (intermediate cutoff) | <span style="color:#ed8a43;">\>95% passing</span> |
+| Double-triangle (intermediate cutoff) | <span style="color:#ed8a43;">\>95% passing</span> |
+| Single-sine (vertical cutoff)         | <span style="color:#ed8a43;">\>95% passing</span> |
+| Double-sine (vertical cutoff)         | <span style="color:#ed8a43;">\>95% passing</span> |
+| Single-triangle (vertical cutoff)     | <span style="color:#ed8a43;">\>95% passing</span> |
+| Double-triangle (vertical cutoff)     | <span style="color:#ed8a43;">\>95% passing</span> |
 
 </div>
 
@@ -296,9 +296,10 @@ coveted **degree-day-challenge badge** on your site:
 **Library**: degday  
 **Author**: Andy Lyons  
 **Code**: [degday](https://ucanr-igis.github.io/degday/)  
-**Notebook**: [Degree Day Validation Challenge with
-degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)
-([degday_R.Rmd]()) **Results**:
+**Notebook**: [degday
+Tests](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)
+([degday_R.Rmd]())  
+**Results**:
 
 | Method                              | Result                                      |
 |:------------------------------------|:--------------------------------------------|
