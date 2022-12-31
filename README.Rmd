@@ -147,7 +147,7 @@ When your submission is posted, you'll be sent embed code to display the coveted
 ### Python
 
 ::: {style="margin-left:2em;"}
-**Library**: **HeatUnits**
+**Library**: **HeatUnits**  
 **Author**: Shane Feirer   
 **Code**: [HeatUnits.py](https://github.com/UCANR-IGIS/caladapt-py/blob/master/CookBooks/HeatUnits.py)  
 **Notebook**: [DegreeDaysChallenge.ipynb](https://ucanr-igis.github.io/degree-day-challenge/submissions/heatunits_py/HeatUnits_py.html) ([HeatUnits_py.ipynb]())  
@@ -182,11 +182,11 @@ c(
 ### R
 
 ::: {style="margin-left:2em;"}
-**Library**: **degday**
+**Library**: **degday**  
+**Author**: Andy Lyons   
 **Code**: [degday](https://ucanr-igis.github.io/degday/)  
 **Notebook**: 
-[Degree Day Validation Challenge with degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)  
-**Author**: Andy Lyons   
+[Degree Day Validation Challenge with degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html) ([degday_R.Rmd]())
 **Results**: 
 
 ```{r echo = FALSE}
@@ -196,7 +196,7 @@ c(
 "Single-sine (horizontal cutoff)", passing_grn, 
 "Double-sine (horizontal cutoff)", passing_grn, 
 "Single-triangle (horizontal cutoff)", passing_grn, 
-"Double-triangle (horizontal cutoff)", passing_grn, 
+"Double-triangle (horizontal cutoff)", passing_grn 
 ) |> 
   matrix(ncol = 2, byrow = TRUE) |> 
   as.data.frame() |> 

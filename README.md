@@ -262,11 +262,13 @@ coveted **degree-day-challenge badge** on your site:
 
 <div style="margin-left:2em;">
 
-**Library**: HeatUnits **Code**:
-[HeatUnits.py](https://ucanr-igis.github.io/caladapt-py/DegreeDaysChallenge.html)  
+**Library**: **HeatUnits** **Author**: Shane Feirer  
+**Code**:
+[HeatUnits.py](https://github.com/UCANR-IGIS/caladapt-py/blob/master/CookBooks/HeatUnits.py)  
 **Notebook**:
-[DegreeDaysChallenge.ipynb](https://github.com/UCANR-IGIS/caladapt-py/blob/master/docs/DegreeDaysChallenge.ipynb)  
-**Submitted by**: Shane Feirer  
+[DegreeDaysChallenge.ipynb](https://ucanr-igis.github.io/degree-day-challenge/submissions/heatunits_py/HeatUnits_py.html)
+([HeatUnits_py.ipynb]())
+
 **Results**:
 
 | Method                                | Result                                            |
@@ -282,7 +284,7 @@ coveted **degree-day-challenge badge** on your site:
 | Single-sine (vertical cutoff)         | <span style="color:#ed6a43;">\>95% passing</span> |
 | Double-sine (vertical cutoff)         | <span style="color:#ed6a43;">\>95% passing</span> |
 | Single-triangle (vertical cutoff)     | <span style="color:#ed6a43;">\>95% passing</span> |
-| Double-triangle (vertical cutoff)     | <span style="color:#14c700;">passing</span>       |
+| Double-triangle (vertical cutoff)     | <span style="color:#ed6a43;">\>95% passing</span> |
 
 </div>
 
@@ -292,12 +294,17 @@ coveted **degree-day-challenge badge** on your site:
 
 **Library**: **degday** **Code**:
 [degday](https://ucanr-igis.github.io/degday/)  
-**Notebook**: [Degree Day Validation Challenge with degday R
-package](https://ucanr-igis.github.io/degree-day-challenge/degday_R.nb.html)  
-**Submitted by**: Andy Lyons  
+**Notebook**: [Degree Day Validation Challenge with
+degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)  
+**Author**: Andy Lyons  
 **Results**:
 
-- all passing
+| Method                              | Result                                      |
+|:------------------------------------|:--------------------------------------------|
+| Single-sine (horizontal cutoff)     | <span style="color:#14c700;">passing</span> |
+| Double-sine (horizontal cutoff)     | <span style="color:#14c700;">passing</span> |
+| Single-triangle (horizontal cutoff) | <span style="color:#14c700;">passing</span> |
+| Double-triangle (horizontal cutoff) | <span style="color:#14c700;">passing</span> |
 
 </div>
 
