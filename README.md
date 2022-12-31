@@ -262,7 +262,8 @@ coveted **degree-day-challenge badge** on your site:
 
 <div style="margin-left:2em;">
 
-**Library**: **HeatUnits** **Author**: Shane Feirer  
+**Library**: HeatUnits  
+**Author**: Shane Feirer  
 **Code**:
 [HeatUnits.py](https://github.com/UCANR-IGIS/caladapt-py/blob/master/CookBooks/HeatUnits.py)  
 **Notebook**:
@@ -292,12 +293,12 @@ coveted **degree-day-challenge badge** on your site:
 
 <div style="margin-left:2em;">
 
-**Library**: **degday** **Code**:
-[degday](https://ucanr-igis.github.io/degday/)  
-**Notebook**: [Degree Day Validation Challenge with
-degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)  
+**Library**: degday  
 **Author**: Andy Lyons  
-**Results**:
+**Code**: [degday](https://ucanr-igis.github.io/degday/)  
+**Notebook**: [Degree Day Validation Challenge with
+degday](https://ucanr-igis.github.io/degree-day-challenge/submissions/degday_r/degday_R.nb.html)
+([degday_R.Rmd]()) **Results**:
 
 | Method                              | Result                                      |
 |:------------------------------------|:--------------------------------------------|
